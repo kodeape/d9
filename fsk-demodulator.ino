@@ -34,7 +34,7 @@ void setup() {
   Timer1.attachInterrupt(takeSample); 
   pinMode(bitPin, OUTPUT);
   pinMode(ctrlPin, OUTPUT);
-  Serial.begin(9600);
+  Serial.begin(9600); // only necessary for logging data to the serial monitor
 }
 
 // Function returning absolute value of num
